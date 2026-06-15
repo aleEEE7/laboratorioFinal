@@ -1,2 +1,4 @@
 # laboratorioFinal
-repositorio del laboratorio final del modulo 2
+Alexis Alejandro Zetino Perez
+Rodrigo Alonso Martinez Juarez
+Melvin Jeovany Alvarado Hernandez
