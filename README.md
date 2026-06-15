@@ -1,4 +1,6 @@
 # laboratorioFinal
-Alexis Alejandro Zetino Perez
-,Rodrigo Alonso Martinez Juarez
-,Melvin Jeovany Alvarado Hernandez
+
+Integrantes:
+- Nombre Completo 1
+- Nombre Completo 2
+- Nombre Completo 3
