@@ -1,6 +1,6 @@
 # laboratorioFinal
 
 Integrantes:
-- Melvin Jeovany Alvara Hernandez
+- Melvin Jeovany Alvarado Hernandez
 - Aexis Aljandro Zetino Perz
 - Rodrgo Alonso Martinez Juarez
