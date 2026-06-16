@@ -1,6 +1,6 @@
 # laboratorioFinal
 
 Integrantes:
-- Nombre Completo 1
-- Nombre Completo 2
-- Nombre Completo 3
+- Melvin Jeovany Alvara Hernandez
+- Aexis Aljandro Zetino Perz
+- Rodrgo Alonso Martinez Juarez
