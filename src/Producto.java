@@ -10,77 +10,80 @@ public class Producto {
     private int cantidadMin;
     private Categoria categoria;
 
-    public Producto(int id, String nombre, double pc,
-                    double pv, Categoria cat) {
-        this.idProducto = id;
+    public Producto(int idProducto, String nombre,
+                    double precioCompra,
+                    double precioVenta,
+                    int cantidadMax,
+                    int cantidadMin,
+                    Categoria categoria) {
+
+        this.idProducto = idProducto;
         this.nombre = nombre;
-        this.precioCompra = pc;
-        this.precioVenta = pv;
-        this.categoria = cat;
+        this.precioCompra = precioCompra;
+        this.precioVenta = precioVenta;
+        this.cantidadMax = cantidadMax;
+        this.cantidadMin = cantidadMin;
+        this.categoria = categoria;
     }
 
     public int getIdProducto() {
         return idProducto;
     }
 
-    public void setIdProducto(int id) {
-        this.idProducto = id;
+    public void setIdProducto(int idProducto) {
+        this.idProducto = idProducto;
     }
 
     public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nom) {
-        this.nombre = nom;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public double getPrecioCompra() {
         return precioCompra;
     }
 
-    public void setPrecioCompra(double precio) {
-        this.precioCompra = precio;
+    public void setPrecioCompra(double precioCompra) {
+        this.precioCompra = precioCompra;
     }
 
     public double getPrecioVenta() {
         return precioVenta;
     }
 
-    public void setPrecioVenta(double precio) {
-        this.precioVenta = precio;
+    public void setPrecioVenta(double precioVenta) {
+        this.precioVenta = precioVenta;
     }
 
     public int getCantidadMax() {
         return cantidadMax;
     }
 
-    public void setCantidadMax(int cant) {
-        this.cantidadMax = cant;
+    public void setCantidadMax(int cantidadMax) {
+        this.cantidadMax = cantidadMax;
     }
 
     public int getCantidadMin() {
         return cantidadMin;
     }
 
-    public void setCantidadMin(int cant) {
-        this.cantidadMin = cant;
+    public void setCantidadMin(int cantidadMin) {
+        this.cantidadMin = cantidadMin;
     }
 
     public Categoria getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(Categoria cat) {
-        this.categoria = cat;
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
     }
 
     @Override
     public String toString() {
-        return "Producto [idProducto=" + idProducto +
-                ", nombre=" + nombre +
-                ", precioCompra=" + precioCompra +
-                ", precioVenta=" + precioVenta +
-                ", categoria=" + categoria + "]";
+        return nombre;
     }
 }

@@ -1,15 +1,21 @@
-package laboratorioFinal;
+
 
 public class Venta {
 
     private int idVenta;
     private String fecha;
+    private double total;
     private Cliente cliente;
     private Empleado empleado;
 
-    public Venta(int idVenta, String fecha, Cliente cliente, Empleado empleado) {
+    public Venta(int idVenta, String fecha,
+                 double total,
+                 Cliente cliente,
+                 Empleado empleado) {
+
         this.idVenta = idVenta;
         this.fecha = fecha;
+        this.total = total;
         this.cliente = cliente;
         this.empleado = empleado;
     }
@@ -28,6 +34,14 @@ public class Venta {
 
     public void setFecha(String fecha) {
         this.fecha = fecha;
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
     }
 
     public Cliente getCliente() {
@@ -49,8 +63,9 @@ public class Venta {
     @Override
     public String toString() {
         return "Venta [idVenta=" + idVenta +
-                ", fecha=" + fecha +
-                ", cliente=" + cliente +
-                ", empleado=" + empleado + "]";
+               ", fecha=" + fecha +
+               ", total=" + total +
+               ", cliente=" + cliente +
+               ", empleado=" + empleado + "]";
     }
 }
